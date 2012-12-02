@@ -1,0 +1,35 @@
+{
+	"name": "dustmon",
+	"version": "0.0.1",
+	"author": {
+		"name": "Brendan Gadd"
+	},
+	"description": "Dust.js template monitor and auto-compiler.",
+	"dependencies": {
+		"jasmine-node": "1.0.x",
+		"dustjs-linkedin": "1.1.x",
+		"optimist": "0.3.x"
+	},
+	"scripts": {
+		"test": "node test/jasmine-test/server/specRunner.js",
+		"start": "node src/build.js"
+	},
+	"main": "dustmon.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/brendangadd/dustmon"
+	},
+	"keywords": [
+		"dust",
+		"dust.js",
+		"templates",
+		"views",
+		"compiler"
+	],
+	"license": "MIT",
+	"engine": {
+		"node": ">=0.6"
+	},
+	"readmeFilename": "readme.md",
+	"_id": "dustmon@0.0.1"
+}
